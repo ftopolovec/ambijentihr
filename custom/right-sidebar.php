@@ -1,6 +1,7 @@
 
 <?php
-	if(!(is_page(10))){
+	global $post;
+	if($post->post_parent == '10' ){
 ?>
 	<?php 
 		$mypages = get_pages( array( 'child_of' => 10, 'sort_column' => 'post_date', 'sort_order' => 'desc' ) ); 
