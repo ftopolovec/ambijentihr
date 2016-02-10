@@ -5384,6 +5384,7 @@ body.side-header-right.rtl #side-header .login-box {
   position: relative;
   z-index: 200;
   overflow: hidden;
+  display:none;
 }
 .fusion-main-menu > ul > li:last-child {
   padding-right: 0;
@@ -14103,6 +14104,59 @@ table {
   margin: 0;
 }
 
+.fusion-header {
+  height:350px;
+}
+/** Custom sticky header **/
+
+.fusion-is-sticky .fusion-logo {
+  position:relative;
+  top:0px;
+}
+
+.fusion-is-sticky .fusion-main-menu {
+  display:block;
+  position:relative;
+  top:0px;
+}
+
+/** Custom header **/
+
+.fusion-main-menu {
+  position:absolute;
+  top:230px;
+}
+
+.fusion-logo {
+  position:absolute;
+  top:230px;
+}
+
+/** Custom menu style **/
+
+.fusion-is-sticky .fusion-main-menu > ul > li {
+  padding-right:15px !important;
+}
+
+.fusion-is-sticky .fusion-main-menu > ul > li a {
+  font-size:16px;
+  text-shadow: 0 0px 0 #fdfdfd;
+  color: #fff !important;
+  text-decoration: none;
+  font-weight:bold;
+  border-bottom-right-radius: 2px;
+  border-bottom-left-radius: 2px;
+  background: #83AB00;
+  padding-left:10px;
+  padding-right:10px;
+}
+
+.current-menu-item > a {
+  background: #D02620 !important;
+}
+
+/** Custom homepage **/
+
 #homepage-wrapper {
   padding-top: 0px !important;
 }
@@ -14137,6 +14191,9 @@ table {
   font-size:18px;
   margin-left:-60px;
 }
+
+/** Custom responsivnes homepage **/
+
 @media (max-width: 1014px) {
   #header-line{
     width:90% !important;
