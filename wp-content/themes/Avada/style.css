@@ -14198,6 +14198,20 @@ body.has-sidebar.double-sidebars #main #sidebar {
 .fusion-breadcrumbs {
   font-size:12px !important;
 }
+/** Footer menu **/
+
+.fusion-footer-widget-area {
+  border-top:1px #999 solid !important;
+}
+
+.fusion-footer-widget-area ul li a {
+  padding:0px 0px 5px 0px;
+  border-bottom:0px;
+  color:#333;
+}
+.fusion-footer-widget-area .current-menu-item > a {
+  background:#fff !important;
+}
 
 /** Custom homepage **/
 
@@ -14215,6 +14229,12 @@ body.has-sidebar.double-sidebars #main #sidebar {
   font-family: 'PT Sans', Arial, Helvetica, sans-serif !important;
   bottom:7%;
   cursor:pointer;
+}
+.homepage-links a{
+  color:#fff;
+}
+.homepage-links a:hover{
+  color:#fff;
 }
 #header-image{
   margin-left:60px !important;
@@ -14267,3 +14287,9 @@ body.has-sidebar.double-sidebars #main #sidebar {
   }
   
 }
+
+/** Usluge page **/
+.usluge-list-sidebar {
+  list-style: none;
+}
+
