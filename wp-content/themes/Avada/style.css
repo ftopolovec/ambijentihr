@@ -14102,3 +14102,67 @@ table {
 .fusion-events-shortcode h4 {
   margin: 0;
 }
+
+#homepage-wrapper {
+  padding-top: 0px !important;
+}
+.homepage-links {
+  text-align: center;
+  display: block;
+  z-index: 999 !important;
+  color:#fff !important;
+  position:absolute;
+  left:12%;
+  font-size: 200% !important;
+  font-family: 'PT Sans', Arial, Helvetica, sans-serif !important;
+  bottom:7%;
+  cursor:pointer;
+}
+#header-image{
+  margin-left:60px !important;
+  margin-bottom:0px !important;
+  margin-right:10px;
+}
+
+#header-line{
+  width:100% !important;
+  margin-top:38px;
+  margin-left:-30px;
+  margin-bottom:0px !important;
+}
+
+#header-text{
+  margin-top:25px !important; 
+  margin-bottom:0px !important;
+  font-size:18px;
+  margin-left:-60px;
+}
+@media (max-width: 1014px) {
+  #header-line{
+    width:90% !important;
+  }
+  #header-text{
+    margin-top:0px !important; 
+    margin-left:-60px;
+  }
+}
+@media (max-width: 800px) {
+  #header-image{
+    margin-left:0px !important;
+    margin-right:0px;
+  }
+  #header-line{
+    margin-left:0px;
+
+  }
+  #header-text{
+  font-size:20px;
+  margin-left:0px;
+  margin-top:-10px !important;
+  margin-bottom:-10px !important;
+  }
+  .homepage-links {
+    left:25%;
+  }
+  
+}
