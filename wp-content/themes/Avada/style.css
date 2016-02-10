@@ -14155,6 +14155,50 @@ table {
   background: #D02620 !important;
 }
 
+/** Custom side menu style **/
+
+body.has-sidebar.double-sidebars #main #sidebar {
+  width:24% !important;
+}
+
+.fusion-content-widget-area .widget li {
+  float:left;
+  width:50%;
+  border-bottom:none;
+  line-height: 20px !important;
+  padding: 0px 0px 10px 12px !important;
+}
+
+.fusion-content-widget-area .widget li a {
+  text-transform:uppercase;
+  display:block;
+  background:#83AB00;
+  color:#fff !important;
+  padding:80px 0px 0px 5px;
+  height:110px;
+  font-size:16px;
+  font-weight: bold;
+
+}
+
+.fusion-content-widget-area .widget li a:before {
+  display:none;
+}
+
+#nav_menu-2 {
+  width:100%;
+}
+
+/** Custom title bar **/
+
+.fusion-page-title-bar {
+  font-family: 'Open Sans', Arial, Helvetica, sans-serif !important;
+}
+
+.fusion-breadcrumbs {
+  font-size:12px !important;
+}
+
 /** Custom homepage **/
 
 #homepage-wrapper {
