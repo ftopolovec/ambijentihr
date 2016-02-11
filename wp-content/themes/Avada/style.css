@@ -14220,6 +14220,7 @@ body.has-sidebar.double-sidebars #main #sidebar {
 
 .fusion-footer-widget-area {
   border-top:1px #999 solid !important;
+  padding-top:20px !important;
 }
 
 .fusion-footer-widget-area ul li a {
@@ -14340,7 +14341,48 @@ body.has-sidebar.double-sidebars #main #sidebar {
   padding-bottom:15px;
   text-transform: uppercase;
   font-weight: bold;
+  border-left: 1px solid #999;
+  padding-left:10px;
+  margin-left:0px !important;
 }
 .current-sidemenu-item a{
   color:#D02620 !important;
+}
+.border-left{
+  border-left: 1px solid #999;
+}
+/** Gallery page **/
+.gallery-cat{
+  margin:0;
+  padding:0;
+}
+.gallery-cat li{
+  list-style: none;
+  float:left;
+  padding-right:20px;
+}
+
+.gallery-cat h2 {
+  font-size: 15px !important;
+  margin-bottom:0px;
+  font-weight: bold !important;
+  text-transform: uppercase;
+}
+
+.gallery-cat h2 a {
+    color:#D02620 !important;
+}
+.gallery-cat h2 a:hover {
+  color:#333 !important;
+}
+
+/** Contact form **/
+#submit {
+  background:#83AB00 !important;
+  color: #fff !important;
+}
+
+#submit:hover {
+  background:#D02620 !important;
+  color: #fff !important;
 }

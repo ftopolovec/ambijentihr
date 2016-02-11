@@ -20,7 +20,7 @@
 			<form class="searchform seach-form" role="search" method="get" action="<?php echo home_url( '/' ); ?>">
 				<div class="search-table">
 					<div class="search-field">
-						<input type="text" value="" name="s" class="s" placeholder="<?php _e( 'Search ...', 'Avada' ); ?>"/>
+						<input type="text" value="" name="s" class="s" placeholder="<?php _e( 'Pretraži ...', 'Avada' ); ?>"/>
 					</div>
 					<div class="search-button">
 						<input type="submit" class="searchsubmit" value="&#xf002;" />
@@ -57,7 +57,7 @@
 					?>
 				</div>
 				<div class="fusion-column col-lg-4 col-md-4 col-sm-4">
-					<h3><?php _e( 'Try again', 'Avada' ); ?></h3>
+					<h3><?php _e( 'Pokušajte ponovo', 'Avada' ); ?></h3>
 					<p><?php _e('If you want to rephrase your query, here is your chance:', 'Avada' ); ?></p>
 					<?php echo get_search_form( false ); ?>
 				</div>
@@ -66,7 +66,7 @@
 	</div>
 	<?php endif; ?>
 	</div>
-	<?php do_action( 'fusion_after_content' ); ?>
+	
 <?php get_footer();
 
 // Omit closing PHP tag to avoid "Headers already sent" issues.

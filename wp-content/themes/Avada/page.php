@@ -10,38 +10,38 @@
 			<?php
 			if( avada_number_of_featured_images() > 0 || get_post_meta( $post->ID, 'pyre_video', true ) ): // 3
 			?>
-			<div class="fusion-flexslider flexslider post-slideshow">
+			<!--<div class="fusion-flexslider flexslider post-slideshow">
 				<ul class="slides">
-					<?php if(get_post_meta($post->ID, 'pyre_video', true)): ?>
+					<?php // if(get_post_meta($post->ID, 'pyre_video', true)): ?>
 					<li>
 						<div class="full-video">
-							<?php echo get_post_meta($post->ID, 'pyre_video', true); ?>
+							<?php // echo get_post_meta($post->ID, 'pyre_video', true); ?>
 						</div>
 					</li>
-					<?php endif; ?>
-					<?php if( has_post_thumbnail() && get_post_meta( $post->ID, 'pyre_show_first_featured_image', true ) != 'yes' ): ?>
-					<?php $attachment_image = wp_get_attachment_image_src(get_post_thumbnail_id(), 'full'); ?>
-					<?php $full_image = wp_get_attachment_image_src(get_post_thumbnail_id(), 'full'); ?>
-					<?php $attachment_data = wp_get_attachment_metadata(get_post_thumbnail_id()); ?>
+					<?php // endif; ?>
+					<?php // if( has_post_thumbnail() && get_post_meta( $post->ID, 'pyre_show_first_featured_image', true ) != 'yes' ): ?>
+					<?php // $attachment_image = wp_get_attachment_image_src(get_post_thumbnail_id(), 'full'); ?>
+					<?php // $full_image = wp_get_attachment_image_src(get_post_thumbnail_id(), 'full'); ?>
+					<?php // $attachment_data = wp_get_attachment_metadata(get_post_thumbnail_id()); ?>
 					<li>
-						<a href="<?php echo $full_image[0]; ?>" rel="prettyPhoto[gallery<?php the_ID(); ?>]" title="<?php echo get_post_field('post_excerpt', get_post_thumbnail_id()); ?>" data-title="<?php echo get_post_field('post_title', get_post_thumbnail_id()); ?>" data-caption="<?php echo get_post_field('post_excerpt', get_post_thumbnail_id()); ?>"><img src="<?php echo $attachment_image[0]; ?>" alt="<?php echo get_post_meta(get_post_thumbnail_id(), '_wp_attachment_image_alt', true); ?>" /></a>
+						<a href="<?php // echo $full_image[0]; ?>" rel="prettyPhoto[gallery<?php the_ID(); ?>]" title="<?php// echo get_post_field('post_excerpt', get_post_thumbnail_id()); ?>" data-title="<?php echo get_post_field('post_title', get_post_thumbnail_id()); ?>" data-caption="<?php echo get_post_field('post_excerpt', get_post_thumbnail_id()); ?>"><img src="<?php echo $attachment_image[0]; ?>" alt="<?php echo get_post_meta(get_post_thumbnail_id(), '_wp_attachment_image_alt', true); ?>" /></a>
 					</li>
-					<?php endif; ?>
+					<?php // endif; ?>
 					<?php
-					$i = 2;
-					while($i <= Avada()->settings->get( 'posts_slideshow_number' )):
-					$attachment_new_id = kd_mfi_get_featured_image_id('featured-image-'.$i, 'page');
-					if($attachment_new_id):
+					$i // = 2;
+					//while($i <= Avada()->settings->get( 'posts_slideshow_number' )):
+					//$attachment_new_id = kd_mfi_get_featured_image_id('featured-image-'.$i, 'page');
+					//if($attachment_new_id):
 					?>
-					<?php $attachment_image = wp_get_attachment_image_src($attachment_new_id, 'full'); ?>
-					<?php $full_image = wp_get_attachment_image_src($attachment_new_id, 'full'); ?>
-					<?php $attachment_data = wp_get_attachment_metadata($attachment_new_id); ?>
+					<?php //$attachment_image = wp_get_attachment_image_src($attachment_new_id, 'full'); ?>
+					<?php //$full_image = wp_get_attachment_image_src($attachment_new_id, 'full'); ?>
+					<?php //$attachment_data = wp_get_attachment_metadata($attachment_new_id); ?>
 					<li>
-						<a href="<?php echo $full_image[0]; ?>" rel="prettyPhoto[gallery<?php the_ID(); ?>]" title="<?php echo get_post_field('post_excerpt', $attachment_new_id); ?>" data-title="<?php echo get_post_field( 'post_title', $attachment_new_id ); ?>" data-caption="<?php echo get_post_field('post_excerpt', $attachment_new_id ); ?>"><img src="<?php echo $attachment_image[0]; ?>" alt="<?php echo get_post_meta($attachment_new_id, '_wp_attachment_image_alt', true); ?>" /></a>
+						<a href="<?php //echo $full_image[0]; ?>" rel="prettyPhoto[gallery<?php the_ID(); ?>]" title="<?php// echo get_post_field('post_excerpt', $attachment_new_id); ?>" data-title="<?php echo get_post_field( 'post_title', $attachment_new_id ); ?>" data-caption="<?php echo get_post_field('post_excerpt', $attachment_new_id ); ?>"><img src="<?php echo $attachment_image[0]; ?>" alt="<?php echo get_post_meta($attachment_new_id, '_wp_attachment_image_alt', true); ?>" /></a>
 					</li>
-					<?php endif; $i++; endwhile; ?>
+					<?php //endif; $i++; endwhile; ?>
 				</ul>
-			</div>
+			</div> -->
 			<?php endif; // 3 ?>
 			<?php endif; // 2 ?>
 			<?php endif; // 1 password check ?>

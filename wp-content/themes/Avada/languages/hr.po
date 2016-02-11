@@ -29,22 +29,22 @@ msgstr ""
 # @ Avada
 #: 404.php:7
 msgid "Oops, This Page Could Not Be Found!"
-msgstr ""
+msgstr "Ups, ovu stranicu nije moguće pronaći."
 
 # @ Avada
 #: 404.php:19 search.php:49
 msgid "Here are some useful links:"
-msgstr ""
+msgstr "Pokušajte koristiti neke od sljedećih poveznica:"
 
 # @ Avada
 #: 404.php:32
 msgid "Search Our Website"
-msgstr ""
+msgstr "Traži"
 
 # @ Avada
 #: 404.php:33
 msgid "Can't find what you need? Take a moment and do a search below!"
-msgstr ""
+msgstr "Ako niste uspjeli pronaći što ste željeli pokušajte koristiti tražilicu!"
 
 # @ Avada
 #: 404.php:38 search.php:23 searchform.php:4
@@ -114,12 +114,12 @@ msgstr ""
 # @ Avada
 #: comments.php:54 contact.php:132
 msgid "Name (required)"
-msgstr ""
+msgstr "Ime (obavezno)"
 
 # @ Avada
 #: comments.php:56 contact.php:134
 msgid "Email (required)"
-msgstr ""
+msgstr "Email (obavezno)"
 
 # @ Avada
 #: comments.php:58
@@ -205,17 +205,17 @@ msgstr ""
 # @ Avada
 #: contact.php:136
 msgid "Subject"
-msgstr ""
+msgstr "Predmet"
 
 # @ Avada
 #: contact.php:142
 msgid "Message"
-msgstr ""
+msgstr "Poruka"
 
 # @ Avada
 #: contact.php:160
 msgid "Submit Form"
-msgstr ""
+msgstr "Pošalji upit"
 
 # @ Avada
 #: faqs.php:44 templates/portfolio-layout.php:142
@@ -8678,12 +8678,12 @@ msgstr ""
 
 #: framework/custom_functions.php:457
 msgid "Search results for: %s"
-msgstr ""
+msgstr "Rezultati pretrage za: %s"
 
 # @ Avada
 #: framework/custom_functions.php:469
 msgid "Error 404 Page"
-msgstr ""
+msgstr "Stranica greške 404"
 
 #: framework/custom_functions.php:476
 msgid "Daily Archives: %s"
@@ -10578,12 +10578,12 @@ msgstr ""
 # @ Avada
 #: includes/class-fusion-breadcrumbs.php:86
 msgid "Search:"
-msgstr ""
+msgstr "Tražili ste: "
 
 # @ Avada
 #: includes/class-fusion-breadcrumbs.php:87
 msgid "404 - Page not Found"
-msgstr ""
+msgstr "404 - Stranica nije pronađena"
 
 # @ shoestrap
 #: includes/class-fusion-image-resizer.php:74
@@ -11367,7 +11367,7 @@ msgstr ""
 # @ Avada
 #: includes/woo-config.php:204
 msgid "Search..."
-msgstr ""
+msgstr "Pretraži..."
 
 # @ Avada
 #: includes/woo-config.php:266 includes/woo-config.php:299
@@ -11625,22 +11625,22 @@ msgstr ""
 # @ Avada
 #: search.php:40
 msgid "Couldn't find what you're looking for!"
-msgstr ""
+msgstr "Nismo uspjeli pronaći što ste tražili!"
 
 # @ Avada
 #: search.php:46
 msgid "Oops!"
-msgstr ""
+msgstr "Ajme!"
 
 # @ Avada
 #: search.php:58
 msgid "Try again!"
-msgstr ""
+msgstr "Pokušajte ponovo!"
 
 # @ Avada
 #: search.php:59
 msgid "If you want to rephrase your query, here is your chance:"
-msgstr ""
+msgstr "Ukoliko želite pokušati upisati novi pojam:"
 
 # @ Avada
 #: single-avada_portfolio.php:162
