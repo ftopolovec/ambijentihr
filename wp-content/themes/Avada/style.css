@@ -14105,7 +14105,7 @@ table {
 }
 
 .fusion-header {
-  height:350px;
+  height:335px;
 }
 /** Custom sticky header **/
 
@@ -14115,7 +14115,7 @@ table {
 }
 
 .fusion-is-sticky .fusion-main-menu {
-  display:block;
+  display:none;
   position:relative;
   top:0px;
 }
@@ -14176,9 +14176,27 @@ body.has-sidebar.double-sidebars #main #sidebar {
   color:#fff !important;
   padding:80px 0px 0px 5px;
   height:110px;
-  font-size:16px;
+  font-size:14px;
   font-weight: bold;
 
+}
+
+@media (max-width: 1140px) {
+  .fusion-content-widget-area .widget li {
+    float:none;
+    width:100%;
+  }
+}
+
+@media (max-width: 800px) {
+  .fusion-content-widget-area .widget {
+    display: none !important;
+  }
+  .usluge-list-sidebar {
+    padding-left:0px;
+    float:left;
+    padding-right:15px;
+  }
 }
 
 .fusion-content-widget-area .widget li a:before {
@@ -14293,3 +14311,36 @@ body.has-sidebar.double-sidebars #main #sidebar {
   list-style: none;
 }
 
+.post-list-page {
+  margin:0;
+  padding:0;
+}
+
+.post-list-page li{
+  list-style: none !important;
+}
+.post-list-page h2 {
+  font-weight: bold !important;
+}
+.post-list-page h2 a {
+    color:#D02620 !important;
+}
+.post-list-page h2 a:hover {
+  color:#333 !important;
+}
+
+/** Fusion title line hide **/
+.fusion-title .title-sep-container {
+  display: none !important;
+}
+
+/** Right nav pages **/
+.right-nav-pages li {
+  list-style: none !important;
+  padding-bottom:15px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.current-sidemenu-item a{
+  color:#D02620 !important;
+}
