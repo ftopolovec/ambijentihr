@@ -1,7 +1,4 @@
 <?php
-/** Enable W3 Total Cache */
-define('WP_CACHE', true); // Added by W3 Total Cache
-
 /**
  * Temeljna konfiguracija WordPressa.
  *
@@ -23,6 +20,8 @@ define('WP_CACHE', true); // Added by W3 Total Cache
 
 // ** MySQL postavke - Informacije možete dobiti od vašeg web hosta ** //
 /** Ime baze podataka za WordPress */
+//define('WP_CACHE', true); //Added by WP-Cache Manager
+define( 'WPCACHEHOME', 'E:\xamp\htdocs\ambijentihr\wp-content\plugins\wp-super-cache/' ); //Added by WP-Cache Manager
 define('DB_NAME', 'ambijentihr');
 
 /** MySQL korisničko ime baze podataka */

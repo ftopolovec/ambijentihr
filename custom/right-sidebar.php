@@ -8,8 +8,7 @@
 	?>
 	<ul class="right-nav-pages">
 	<?php foreach( $mypages as $page ) { ?>
-		<li if()><a href="<?php echo get_page_link( $page->ID ); ?>"><?php echo $page->post_title; ?></a></li>
-
+		<li <?php if(is_page($page->ID)){echo 'class= "current-sidemenu-item"';} ?>><a href="<?php echo get_page_link( $page->ID ); ?>"><?php echo $page->post_title; ?></a></li>
 	<?php }	?>
 	</ul>
 <?php
