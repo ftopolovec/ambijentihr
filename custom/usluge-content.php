@@ -10,6 +10,7 @@
 	<li>
 		<h2><a href="<?php echo get_page_link( $page->ID ); ?>"><?php echo $page->post_title; ?></a></h2>
 		<?php the_field( "uvodni_tekst", $page->ID );?>
+		<?php echo '<a href="'.get_page_link( $page->ID ).'">Saznaj više...</a>'; ?>
 	</li>
 <?php }	?>
 </ul>
@@ -42,6 +43,7 @@
 				<li>
 					<h2><a href="<?php echo get_page_link( $page->ID ); ?>"><?php echo $page->post_title; ?></a></h2>
 					<?php the_field( "uvodni_tekst", $page->ID );?>
+					<?php echo '<a href="'.get_page_link( $page->ID ).'">Saznaj više...</a>'; ?>
 				</li>
 			<?php }	?>
 			</ul>

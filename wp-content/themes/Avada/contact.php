@@ -109,8 +109,8 @@ if(isset($_POST['submit'])) {
 			<?php echo avada_render_rich_snippets_for_pages(); ?>
 			<?php echo avada_featured_images_for_pages(); ?>
 			<div class="post-content">
-				<?php the_content(); ?>
-
+				
+			<h1 class="title-heading-contact" data-fontsize="26" data-lineheight="NaN">KONTAKT</h1>
 				<?php if( ! Avada()->settings->get( 'email_address' ) ) { // Email address not set
 					$email_address_notice = __( 'Form email address is not set in Theme Options. Please fill in a valid address to make contact form work.', 'Avada' );
 					if ( shortcode_exists( 'alert' ) ) {
@@ -191,6 +191,7 @@ if(isset($_POST['submit'])) {
 			</form>
 		</div>
 		<?php endwhile; ?>
+		<?php the_content(); ?>
 	</div>
 	<?php do_action( 'fusion_after_content' ); ?>
 <?php get_footer();

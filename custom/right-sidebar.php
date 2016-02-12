@@ -23,6 +23,13 @@
 	<?php }	?>
 	</ul>
 <?php
+}elseif (is_page(8)) {
+?>
+	<div class="border-left">
+	<h3>CERTIFIKATI</h3>
+	[imageframe lightbox="yes" lightbox_image="" style_type="none" hover_type="none" bordercolor="" bordersize="0px" borderradius="0" stylecolor="" align="none" link="" linktarget="_self" animation_type="fade" animation_direction="right" animation_speed="0.3" animation_offset="" hide_on_mobile="no" class="" id=""] <img alt="Certifikat - AMBIJENTI d.o.o." class="img-shadow" src="http://localhost/ambijentihr/wp-content/uploads/2016/02/certifikat-ambijent-2015.jpg" />[/imageframe]
+	</div>
+<?php
 }elseif ($post->post_parent == '11734') {
 ?>
 	<?php 
