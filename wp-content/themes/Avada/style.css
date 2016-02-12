@@ -12397,6 +12397,7 @@ button.fusion-button.button-3d:active {
   float: left;
   margin-right: 4%;
   margin-bottom: 20px;
+  margin-left: -3%;
 }
 .fusion-one-full {
   float: none;
@@ -14107,6 +14108,12 @@ table {
 .fusion-header {
   height:335px;
 }
+
+/** Custom naslov **/
+.fusion-title-size-one, h1 {
+  margin-bottom:10px !important;
+}
+
 /** Custom sticky header **/
 
 .fusion-is-sticky .fusion-logo {
@@ -14232,6 +14239,10 @@ body.has-sidebar.double-sidebars #main #sidebar {
   background:#fff !important;
 }
 
+.widget-title {
+  color:#8C8989 !important;
+}
+
 /** Custom homepage **/
 
 #homepage-wrapper {
@@ -14310,6 +14321,8 @@ body.has-sidebar.double-sidebars #main #sidebar {
 /** Usluge page **/
 .usluge-list-sidebar {
   list-style: none;
+  margin-left:0px;
+  padding-left:0px;
 }
 
 .post-list-page {
@@ -14328,6 +14341,10 @@ body.has-sidebar.double-sidebars #main #sidebar {
 }
 .post-list-page h2 a:hover {
   color:#333 !important;
+}
+
+.post-content p {
+  margin-bottom:10px !important;
 }
 
 /** Fusion title line hide **/
@@ -14350,8 +14367,19 @@ body.has-sidebar.double-sidebars #main #sidebar {
 }
 .border-left{
   border-left: 1px solid #999;
+  padding-left:40px;
 }
 /** Gallery page **/
+.gallery-item {
+  margin-bottom:0px;
+  width:24% !important;
+  margin-right:1%;
+  margin-top:1% !important;
+}
+.gallery-item img {
+  border:none !important;
+}
+
 .gallery-cat{
   margin:0;
   padding:0;
@@ -14385,4 +14413,13 @@ body.has-sidebar.double-sidebars #main #sidebar {
 #submit:hover {
   background:#D02620 !important;
   color: #fff !important;
+}
+
+/** O nama certifikat **/
+.img-shadow {
+  box-shadow: 0px 0px 5px #333;
+}
+
+.ilightbox-holder.light {
+  box-shadow: 0px 0px 15px #333 !important;
 }
